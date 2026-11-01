@@ -3,8 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-    System.out.println("Hello every one i am, shahzaib");
-    System.out.print("Khan sahib");
+    int a = 23;
+    int b = 40;
+
+    System.out.print(a+b);
+
 
     }
 }
