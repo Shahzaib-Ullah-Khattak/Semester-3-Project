@@ -6,7 +6,8 @@ public class Main {
     int a = 23;
     int b = 40;
 
-    System.out.print(a+b);
+    System.out.print("THe sum of a and b is " + (a+b));
+
 
 
     }
