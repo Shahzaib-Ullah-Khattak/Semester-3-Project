@@ -3,10 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-    int a = 23;
-    int b = 40;
-
-    System.out.print("THe sum of a and b is " + (a+b));
+    System.out.println("Hello Welcome To the Shahzaib Khattak Work Space");
 
 
 
