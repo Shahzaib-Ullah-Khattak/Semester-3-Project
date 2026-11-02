@@ -520,37 +520,9 @@ Router Forwards Packet
 
 The intelligent module recommends actions. The routing and network modules remain responsible for executing them.
 
-## Module 8: Machine Learning
 
-This module will provide data-driven predictions after sufficient simulation data is available.
 
-| Class | Responsibility |
-|---|---|
-| DataCollector | Collects network statistics |
-| Dataset | Stores training and testing data |
-| DataPreprocessor | Normalizes and prepares data |
-| ModelEvaluator | Evaluates prediction performance |
-| LinearRegression | Predicts numerical values such as delay |
-| LogisticRegression | Predicts categories such as congestion/no congestion |
-| KNN | Classifies network conditions using neighboring examples |
-| DecisionTree | Makes decisions using learned conditions |
-
-The ML module will not directly transmit packets. Its predictions will be passed to the intelligent management module, which can recommend actions to the network engine.
-
-## Module 9: Simulation Management
-
-This module controls the execution of the entire network simulation.
-
-| Class | Responsibility |
-|---|---|
-| SimulationEngine | Coordinates simulation execution |
-| NetworkClock | Maintains simulated time |
-| EventManager | Processes network events |
-| NetworkMetrics | Collects and calculates performance statistics |
-
-A simulated clock and event system will allow the project to represent packet transmission delays, timeouts, and retransmission events without requiring real-time waiting for every operation.
-
-## Module 10: Console Interface
+## Module 8: Console Interface
 
 | Class | Responsibility |
 |---|---|
@@ -732,15 +704,9 @@ The final allocation of work can depend on the number of team members and their 
 - Recommend alternative routes.
 - Implement network anomaly detection.
 
-### Phase 7: Machine Learning
 
-- Generate datasets.
-- Implement preprocessing.
-- Implement basic ML algorithms.
-- Train and test models.
-- Integrate predictions with intelligent network management.
 
-### Phase 8: Final Integration
+### Phase 7: Final Integration
 
 - Integrate all modules.
 - Test communication between different devices.
@@ -753,31 +719,10 @@ The final allocation of work can depend on the number of team members and their 
 
 
 
-### Git Collaboration Strategy
+### System Work Flow
 
 Use a shared GitHub repository with a `main` branch and separate feature branches.
 
-Example:
-
-```text
-main
- |
- |---- feature/network-management
- |
- |---- feature/communication
- |
- |---- feature/packet-management
- |
- |---- feature/tcp-udp
- |
- |---- feature/routing
- |
- |---- feature/intelligence
-
-
-# 8. Example of a Complete Simulation
-
-```text
 =====================================
        NETWORK SIMULATOR
 =====================================
