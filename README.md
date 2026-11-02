@@ -717,14 +717,15 @@ The final allocation of work can depend on the number of team members and their 
 
 ---
 
-
-
-### System Work Flow
+# System Workflow
 
 Use a shared GitHub repository with a `main` branch and separate feature branches.
 
+## Network Simulator — CLI Workflow
+
+```text
 =====================================
-       NETWORK SIMULATOR
+          NETWORK SIMULATOR
 =====================================
 
 1. Create Network
@@ -789,11 +790,11 @@ Delivery Status: [Calculated]
 =====================================
 ```
 
-*The output values above are placeholders for values calculated by the actual simulator.*
+*The output values above are placeholders. The simulator will calculate them from the actual simulation.*
 
 ---
 
-# 9. Technology Stack
+## 9. Technology Stack
 
 | Technology | Purpose |
 |---|---|
@@ -807,11 +808,11 @@ Delivery Status: [Calculated]
 | GitHub | Team collaboration |
 | VS Code / IntelliJ IDEA | Development environment |
 
-The initial simulator will be CLI-based and will not require external machine learning libraries.
+The initial simulator will be CLI-based and will not require external machine learning libraries. Basic machine learning algorithms will be implemented from scratch in Java.
 
 ---
 
-# 10. Future Enhancements
+## 10. Future Enhancements
 
 After the core simulator is stable, possible enhancements include:
 
@@ -827,7 +828,7 @@ After the core simulator is stable, possible enhancements include:
 
 ---
 
-# 11. Project Scope
+## 11. Project Scope
 
 The project is planned in stages.
 
@@ -849,7 +850,7 @@ The project is planned in stages.
 
 ---
 
-# 12. Final Vision
+## 12. Final Vision
 
 The long-term goal is to build an educational and intelligent network simulation platform that combines the fundamentals of computer networking with the practical implementation of data structures, algorithms, and machine learning.
 
